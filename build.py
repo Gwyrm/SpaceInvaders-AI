@@ -179,8 +179,8 @@ def main():
     audio = m.assemble_audio(order, music_make=music.make, music_gain=2.3,
                              sfx=[(0.12, "whoosh")])
     meta = dict(
-        title="Space Invaders : le jeu truqué qu'une IA ne peut pas gagner",
-        hook="Ce jeu est truqué pour que tu perdes 👀 elle joue, ou elle calcule ? 👇",
+        title="Space Invaders accélère jusqu'à ce que tu perdes — alors j'ai lâché une IA dessus",
+        hook="Ce jeu accélère jusqu'à ce que tu perdes 👀 elle joue, ou elle calcule ? 👇",
         description="Une IA joue à Space Invaders — un jeu conçu pour être imbattable. "
                     "On voit son réseau de neurones décider en direct. #shorts #ia #ai",
         hashtags=["ia", "intelligenceartificielle", "spaceinvaders", "ai", "jeuvideo", "neurones"],
