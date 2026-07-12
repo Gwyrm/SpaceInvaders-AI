@@ -123,9 +123,9 @@ for f in range(N):
     if env.done:
         env.reset(seed=7 + f)
 
-out = "/Users/pierre/Projets/tiktok-ia-playbook/runs/agent_real.mp4"
+out = "/Users/pierre/Projets/SpaceInvaders-AI/runs/agent_real.mp4"
 subprocess.run(["ffmpeg", "-y", "-framerate", str(FPS), "-i", f"{tmp}/f%04d.png",
                 "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", out],
                check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-shutil.copy(f"{tmp}/f0120.png", "/Users/pierre/Projets/tiktok-ia-playbook/runs/agent_real_frame.png")
+shutil.copy(f"{tmp}/f0120.png", "/Users/pierre/Projets/SpaceInvaders-AI/runs/agent_real_frame.png")
 print("SAVED", out)

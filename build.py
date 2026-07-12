@@ -23,7 +23,7 @@ from voiceover_tts import SEGMENTS
 
 FPS = 30
 VOICE = "/Users/pierre/Projets/SpaceInvaders-AI/runs/voice"
-OUT = "/Users/pierre/Projets/tiktok-ia-playbook/runs"
+OUT = "/Users/pierre/Projets/SpaceInvaders-AI/runs"
 
 def mono(sz):
     p = pygame.font.match_font("menlo,monaco,couriernew,dejavusansmono")
